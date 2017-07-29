@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite containing script to open notepad]">
+  <test name="Test Script to open notepad(failed)">
+    <classes>
+      <class name="notepad.NotepadExample">
+        <methods>
+          <include name="openNotepad"/>
+          <include name="end"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- notepad.NotepadExample -->
+    </classes>
+  </test> <!-- Test Script to open notepad(failed) -->
+</suite> <!-- Failed suite [Suite containing script to open notepad] -->
